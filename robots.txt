@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://musclelove-777.github.io/fitness-affiliate-blog/sitemap.xml
+Sitemap: https://musclelove-777.github.io/sitemap.xml
