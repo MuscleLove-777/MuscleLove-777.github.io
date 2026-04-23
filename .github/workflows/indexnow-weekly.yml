@@ -1,0 +1,109 @@
+name: IndexNow Weekly Submit
+
+on:
+  schedule:
+    - cron: "15 2 * * 1"  # Every Monday 02:15 UTC (Mon 11:15 JST)
+  push:
+    branches: [master]
+    paths:
+      - 'sitemap.xml'
+  workflow_dispatch:
+
+concurrency:
+  group: indexnow-submit
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit all URLs via IndexNow
+        shell: python
+        run: |
+          import json, time, gzip
+          import urllib.request, urllib.error
+          import xml.etree.ElementTree as ET
+
+          KEY = "936e03d1795206d101e4b3464401b17d"
+          HOST = "musclelove-777.github.io"
+          KEY_LOC = f"https://{HOST}/{KEY}.txt"
+          MASTER = f"https://{HOST}/sitemap.xml"
+          ENDPOINT = "https://api.indexnow.org/IndexNow"
+          NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          HEADERS = {"User-Agent": "Mozilla/5.0 (IndexNow GH Actions)"}
+
+          def fetch(u):
+              req = urllib.request.Request(u, headers=HEADERS)
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  d = r.read()
+                  if r.headers.get("Content-Encoding") == "gzip" or u.endswith(".gz"):
+                      d = gzip.decompress(d)
+                  return d
+
+          def parse(xml):
+              try:
+                  root = ET.fromstring(xml)
+              except ET.ParseError:
+                  return [], []
+              t = root.tag.split("}")[-1]
+              if t == "sitemapindex":
+                  return [e.text.strip() for e in root.findall(".//sm:sitemap/sm:loc", NS) if e.text], []
+              if t == "urlset":
+                  return [], [e.text.strip() for e in root.findall(".//sm:url/sm:loc", NS) if e.text]
+              return [], []
+
+          def normalize(u):
+              u = u.strip()
+              if not u:
+                  return None
+              if u.startswith("http"):
+                  return u if HOST in u else None
+              if u.startswith("/"):
+                  return f"https://{HOST}{u}"
+              return f"https://{HOST}/{u}"
+
+          master = fetch(MASTER)
+          subs, _ = parse(master)
+          print(f"master: {len(subs)} sub-sitemaps")
+
+          all_urls = []
+          for s in subs:
+              try:
+                  x = fetch(s)
+                  _, urls = parse(x)
+                  all_urls.extend(urls)
+                  print(f"  {s} -> {len(urls)}")
+              except Exception as e:
+                  print(f"  FAIL {s}: {e}")
+
+          norm = [n for n in (normalize(u) for u in all_urls) if n]
+          seen = set()
+          unique = []
+          for n in norm:
+              if n not in seen:
+                  seen.add(n)
+                  unique.append(n)
+          print(f"total unique: {len(unique)}")
+
+          def submit(batch):
+              body = json.dumps({"host": HOST, "key": KEY, "keyLocation": KEY_LOC, "urlList": batch}).encode()
+              req = urllib.request.Request(ENDPOINT, data=body, method="POST",
+                                           headers={"Content-Type": "application/json; charset=utf-8"})
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return r.status, r.read().decode("utf-8", errors="replace")[:200]
+              except urllib.error.HTTPError as e:
+                  return e.code, e.read().decode("utf-8", errors="replace")[:200]
+
+          ok_count = 0
+          for i in range(0, len(unique), 10000):
+              batch = unique[i:i+10000]
+              status, body = submit(batch)
+              print(f"[{i}-{i+len(batch)}] status={status}")
+              if status in (200, 202):
+                  ok_count += len(batch)
+              time.sleep(3)
+
+          print(f"\nDONE: submitted {ok_count}/{len(unique)}")
+          if ok_count < len(unique) * 0.9:
+              raise SystemExit(f"submission success rate too low: {ok_count}/{len(unique)}")
