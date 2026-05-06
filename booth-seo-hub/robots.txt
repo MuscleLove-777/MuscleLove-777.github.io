@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://musclelove-777.github.io/booth-seo-hub/sitemap.xml
+
