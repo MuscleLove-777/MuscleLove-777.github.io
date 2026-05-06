@@ -230,6 +230,34 @@ h3 {
   gap: 12px;
 }
 
+.card-media {
+  margin: -20px -20px 14px;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  background: #0f1219;
+}
+
+.card-media img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.product-visual {
+  margin: 22px 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--panel);
+}
+
+.product-visual img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
 .meta {
   color: var(--muted);
   font-size: 14px;
@@ -349,4 +377,3 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
-
