@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://musclelove-777.github.io/patreon/</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://musclelove-777.github.io/patreon/gallery/preview-01.jpg</image:loc>
+      <image:title>MuscleLove Patreon Arms and Abs Preview</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://musclelove-777.github.io/patreon/gallery/preview-02.jpg</image:loc>
+      <image:title>MuscleLove Patreon Gym Pose Preview</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://musclelove-777.github.io/patreon/gallery/preview-03.jpg</image:loc>
+      <image:title>MuscleLove Patreon Pink Heat Preview</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://musclelove-777.github.io/patreon/gallery/preview-04.jpg</image:loc>
+      <image:title>MuscleLove Patreon Outdoor Flex Preview</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://musclelove-777.github.io/patreon/gallery/preview-05.jpg</image:loc>
+      <image:title>MuscleLove Patreon Stage Physique Preview</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://musclelove-777.github.io/patreon/gallery/preview-06.jpg</image:loc>
+      <image:title>MuscleLove Patreon Competition Line Preview</image:title>
+    </image:image>
   </url>
 </urlset>

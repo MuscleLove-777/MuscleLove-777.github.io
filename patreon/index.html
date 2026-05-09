@@ -351,6 +351,51 @@
       gap: 16px;
     }
 
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .gallery-card {
+      display: block;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      text-decoration: none;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .gallery-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+    }
+
+    .gallery-card img {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      object-fit: cover;
+      background: #0d0e12;
+    }
+
+    .gallery-caption {
+      display: block;
+      padding: 14px 16px 16px;
+    }
+
+    .gallery-caption strong {
+      display: block;
+      color: var(--text);
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+
+    .gallery-caption span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
     .two-col {
       display: grid;
       grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
@@ -503,6 +548,7 @@
 
       .proof-strip,
       .grid,
+      .gallery-grid,
       .two-col,
       .steps {
         grid-template-columns: 1fr;
@@ -540,6 +586,7 @@
       <a class="brand" href="../">MuscleLove Patreon</a>
       <div class="nav-links">
         <a href="#contents">見られるもの</a>
+        <a href="#gallery">ギャラリー</a>
         <a href="#join">支援の流れ</a>
         <a href="#faq">FAQ</a>
         <a href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_hub" rel="noopener" target="_blank">Patreonへ</a>
@@ -585,6 +632,40 @@
           <h3>制作メモとフェチ解説</h3>
           <p>どの筋肉ラインを見せたいか、どんな表情や構図が刺さるか。作品づくりの裏側も、支援者向けの価値として積み上げます。</p>
         </article>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2>チラ見せギャラリー</h2>
+      <p class="section-intro">「画像ゼロ」はさすがに弱いので、MuscleLoveの方向性が一発で伝わるプレビューを入れました。全体版や追加カットはPatreon側へ誘導します。</p>
+      <div class="gallery-grid" aria-label="MuscleLove Patreon preview gallery">
+        <a class="gallery-card" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_01" rel="noopener" target="_blank">
+          <img src="gallery/preview-01.jpg" width="720" height="1080" loading="lazy" alt="白いスポーツウェアの筋肉女子AIプレビュー">
+          <span class="gallery-caption"><strong>Arms &amp; Abs</strong><span>肩、腕、腹筋の王道ライン</span></span>
+        </a>
+        <a class="gallery-card" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_02" rel="noopener" target="_blank">
+          <img src="gallery/preview-02.jpg" width="720" height="1080" loading="lazy" alt="ジム背景の筋肉女子AIプレビュー">
+          <span class="gallery-caption"><strong>Gym Pose</strong><span>ジム感と腹筋バキバキ感</span></span>
+        </a>
+        <a class="gallery-card" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_03" rel="noopener" target="_blank">
+          <img src="gallery/preview-03.jpg" width="720" height="1080" loading="lazy" alt="ピンクのスポーツウェアの筋肉女子AIプレビュー">
+          <span class="gallery-caption"><strong>Pink Heat</strong><span>強めの表情と腹筋ライン</span></span>
+        </a>
+        <a class="gallery-card" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_04" rel="noopener" target="_blank">
+          <img src="gallery/preview-04.jpg" width="720" height="1080" loading="lazy" alt="黄色いスポーツウェアの筋肉美女AIプレビュー">
+          <span class="gallery-caption"><strong>Outdoor Flex</strong><span>明るい色味のフィジーク系</span></span>
+        </a>
+        <a class="gallery-card" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_05" rel="noopener" target="_blank">
+          <img src="gallery/preview-05.jpg" width="720" height="1080" loading="lazy" alt="フィジーク大会風の筋肉女子AIプレビュー">
+          <span class="gallery-caption"><strong>Stage Physique</strong><span>大会ポージング風の筋肉美</span></span>
+        </a>
+        <a class="gallery-card" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_06" rel="noopener" target="_blank">
+          <img src="gallery/preview-06.jpg" width="720" height="1080" loading="lazy" alt="大会ステージの筋肉美女AIプレビュー">
+          <span class="gallery-caption"><strong>Competition Line</strong><span>ステージ感のある筋肉美</span></span>
+        </a>
+      </div>
+      <div class="actions">
+        <a class="button" href="https://www.patreon.com/cw/MuscleLove?utm_source=github_pages&amp;utm_medium=seo_lp&amp;utm_campaign=patreon_gallery_cta" rel="noopener" target="_blank">もっと見る</a>
       </div>
     </section>
 
