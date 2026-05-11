@@ -1,14 +1,30 @@
-# MuscleLove Network | アダルト総合レビューネットワーク
+# MuscleLove Network | アダルト系ネットワーク総合ハブ
 
-> AV・アニメ・同人・グッズ・フェチ・VR・素人・熟女・NTR…ジャンル別に特化したアダルトレビューサイト群と、MuscleLove公式Patreon導線を束ねる公式ポータル。
+> MuscleLove Network（筋肉美女ブランド）の総合ハブ。各ジャンルの入口・人気ページ・公式導線（X / Patreon / BOOTH / FANZAガイド）をまとめています。
 
 ## Main Pages
 
-- [Home](https://musclelove-777.github.io/): main page of MuscleLove Network | アダルト総合レビューネットワーク.
-- [MuscleLove Patreon](https://musclelove-777.github.io/patreon/): official Patreon support page for MuscleLove, MuscleGirlLove7, AI muscle girls, abs, armpit fetish, and limited content.
-- [academy index](https://musclelove-777.github.io/academy-index/): main page of MuscleLove Network | アダルト総合レビューネットワーク.
+- [Home](https://musclelove-777.github.io/): entry point of MuscleLove Network.
+- [MuscleLove Patreon](https://musclelove-777.github.io/patreon/): official Patreon support page.
+- [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): BOOTH sales/SEO hub.
+- [FANZA guide (Eronavi)](https://musclelove-777.github.io/eronavi/): FANZA guide hub.
+
+## Popular Pages (GA4 top / 30d)
+
+- [AI Tool Hub](https://musclelove-777.github.io/ai-tool-hub/): AI tools hub.
+- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): armwrestling girls directory.
+- [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): voice AI guide.
+- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): muscle + meal content hub.
+- [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): physique girls hub.
+- [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): fighting/pro-wrestling directory.
+- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): physique directory.
+- [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): AI IDE guide.
+- [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): Flux AI guide.
+
+## Official Links
+
+- [X (@MuscleGirlLove7)](https://x.com/MuscleGirlLove7)
 
 ## About this file
 
-This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
-Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/MuscleLove-777.github.io
+This `llms.txt` follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
