@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://musclelove-777.github.io/sitemap.xml
+Sitemap: https://musclelove-777.github.io/sitemap-root.xml
 
 # AI crawlers
 Llms: https://musclelove-777.github.io/llms.txt

@@ -1,55 +1,27 @@
-# MuscleLove Network | 筋肉美女・格闘女子・フィットネス総合ハブ
+# MuscleLove Network
 
-> MuscleLove Network（筋肉美女ブランド）の総合ハブ。筋肉美女/格闘女子/フィットネス/AIツールの入口と、公式導線（X / Patreon / BOOTH / FANZAガイド）をまとめています。
+> Official hub for MuscleLove: female muscle, fitness, AI tools, BOOTH, Patreon, and adult-oriented FANZA navigation. This file lists only pages that exist in the current public repository.
 
 ## Main Pages
 
-- [Home](https://musclelove-777.github.io/): entry point of MuscleLove Network.
-- [MuscleLove Patreon](https://musclelove-777.github.io/patreon/): official Patreon support page.
-- [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): BOOTH sales/SEO hub.
-- [FANZA guide (Eronavi)](https://musclelove-777.github.io/eronavi/): FANZA guide hub.
+- [Home](https://musclelove-777.github.io/): MuscleLove Network entry point.
+- [Patreon](https://musclelove-777.github.io/patreon/): official support page.
+- [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): product and BOOTH sales hub.
+- [FANZA Guide](https://musclelove-777.github.io/eronavi/): adult-oriented guide hub for users 18+.
+- [AI Tools Network](https://musclelove-777.github.io/network/ai/): AI tool discovery hub.
+- [Fitness Network](https://musclelove-777.github.io/network/fitness/): fitness and female muscle hub.
+- [Academy Network](https://musclelove-777.github.io/network/academy/): learning and business knowledge hub.
 
-## Popular Pages (GA4 top / 30d)
+## Sales And Support
 
-- [AI Tool Hub](https://musclelove-777.github.io/ai-tool-hub/): AI tools hub.
-- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): armwrestling girls directory.
-- [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): voice AI guide.
-- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): muscle + meal content hub.
-- [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): physique girls hub.
-- [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): fighting/pro-wrestling directory.
-- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): physique directory.
-- [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): AI IDE guide.
-- [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): Flux AI guide.
-
-## Growth Lanes
-
-### AI Discovery Lane
-
-- [AI Tool Hub](https://musclelove-777.github.io/ai-tool-hub/): broad top-of-funnel AI tools entry.
-- [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): voice AI guide.
-- [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): image generation entry.
-- [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): AI IDE guide.
-
-### Female Muscle / Fitness Lane
-
-- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): strong women and armwrestling entry.
-- [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): female physique and muscle beauty entry.
-- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): muscle meal and fitness food entry.
-- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): physique directory.
-
-### Revenue Lane
-
-- [FANZA guide (Eronavi)](https://musclelove-777.github.io/eronavi/): adult review and FANZA guide hub.
-- [Takeuchi Yuki abs FANZA guide](https://musclelove-777.github.io/eronavi/posts/2026-05-10-takeuchi-yuki-abs-fanza-guide/): female muscle / abs FANZA article.
-- [Seto Kanna ranking](https://musclelove-777.github.io/eronavi/posts/2026-04-11-setokanna-osusume/): FANZA actress ranking article.
-- [FANZA VR ranking](https://musclelove-777.github.io/vr-eros/posts/2026-04-11-fanza-vr-osusume-ranking-top20/): VR adult ranking article.
-- [MuscleLove Patreon](https://musclelove-777.github.io/patreon/): official support page.
-- [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): BOOTH sales hub.
+- [BOOTH products](https://musclelove-777.github.io/booth-seo-hub/products/): product index.
+- [Train Tanktop Waki](https://musclelove-777.github.io/booth-seo-hub/products/train-tanktop-waki.html): BOOTH product landing page.
+- [Train Gal Waki](https://musclelove-777.github.io/booth-seo-hub/products/train-gal-waki.html): BOOTH product landing page.
 
 ## Official Links
 
-- [X (@MuscleGirlLove7)](https://x.com/MuscleGirlLove7)
+- [X @MuscleGirlLove7](https://x.com/MuscleGirlLove7)
 
-## About this file
+## Notes
 
-This `llms.txt` follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It intentionally excludes removed or missing legacy URLs.
