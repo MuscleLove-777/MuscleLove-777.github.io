@@ -25,3 +25,24 @@
 ## Notes
 
 This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It intentionally excludes removed or missing legacy URLs.
+
+
+## Top Entry Pages (GA4)
+(lastmod: 2026-05-31)
+
+- [AI Tool Hub](https://musclelove-777.github.io/ai-tool-hub/): entry page.
+- [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): entry page.
+- [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): entry page.
+- [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): entry page.
+- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): entry page.
+- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): entry page.
+- [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): entry page.
+- [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): entry page.
+- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): entry page.
+- [Anime Navi](https://musclelove-777.github.io/anime-navi/): entry page (18+).
+- [Entsuma](https://musclelove-777.github.io/entsuma/): entry page (18+).
+- [NTR Navi](https://musclelove-777.github.io/ntr-navi/): entry page (18+).
+- [Oppai Paradise](https://musclelove-777.github.io/oppai-paradise/): entry page (18+).
+- [VR Eros](https://musclelove-777.github.io/vr-eros/): entry page (18+).
+
+<!-- /Top Entry Pages (GA4) -->
