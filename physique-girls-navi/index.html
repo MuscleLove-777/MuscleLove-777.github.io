@@ -70,15 +70,48 @@
         </a>
       </div>
       <div class="cta">
-        <a class="btn" href="https://musclelove-777.github.io/patreon/">Support on Patreon</a>
-        <a class="btn secondary" href="https://musclelove-777.github.io/booth-seo-hub/">Browse BOOTH</a>
-        <a class="btn secondary" href="https://musclelove-777.github.io/eronavi/">FANZA / 18+</a>
+        <a class="btn" href="https://musclelove-777.github.io/patreon/" data-ml-revenue-cta="patreon_support" data-ml-revenue-destination="patreon">Support on Patreon</a>
+        <a class="btn secondary" href="https://musclelove-777.github.io/booth-seo-hub/" data-ml-revenue-cta="booth_hub" data-ml-revenue-destination="booth-seo-hub">Browse BOOTH</a>
+        <a class="btn secondary" href="https://musclelove-777.github.io/eronavi/" data-ml-revenue-cta="fanza_guide" data-ml-revenue-destination="eronavi">FANZA / 18+</a>
       </div>
     </section>
     <footer>
       <p><a href="https://musclelove-777.github.io/llms.txt">llms.txt</a> / <a href="https://musclelove-777.github.io/sitemap.xml">sitemap.xml</a></p>
     </footer>
-  </main>
+
+<!-- ML_REVENUE_CTA_START -->
+<section class="section" id="musclelove-revenue-cta">
+  <div style="background:#111827;border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:28px;box-shadow:0 14px 36px rgba(0,0,0,0.22);">
+    <p style="margin:0 0 8px;color:#fbbf24;font-weight:800;letter-spacing:0.08em;font-size:0.82rem;">MuscleLove related guide</p>
+    <h2 style="margin:0 0 12px;color:#f9fafb;font-size:1.55rem;">フィジーク女子ナビ / ビキニフィットネス・フィジーク・ボディビル女子選手情報を作品ナビにもつなげる</h2>
+    <p style="margin:0 0 18px;color:#d1d5db;line-height:1.8;">競技・トレーニング情報を読んだあとに、筋肉女子AI CG集やFANZA系ガイドも確認できます。成人向けリンクを含むため18歳未満は閲覧不可です。PR/アフィリエイトを含む場合があります。</p>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;">
+      <a href="https://musclelove-777.github.io/booth-seo-hub/" data-ml-revenue-cta="booth_hub" data-ml-revenue-destination="booth-seo-hub" target="_blank" rel="noopener" style="display:inline-block;padding:10px 16px;background:#f97316;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">BOOTH作品ナビ</a>
+      <a href="https://musclelove-777.github.io/eronavi/" data-ml-revenue-cta="fanza_guide" data-ml-revenue-destination="eronavi" target="_blank" rel="noopener" style="display:inline-block;padding:10px 16px;background:#7c3aed;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">FANZAガイド</a>
+      <a href="https://musclelove-777.github.io/booth-seo-hub/products/" data-ml-revenue-cta="booth_products" data-ml-revenue-destination="booth-products" target="_blank" rel="noopener" style="display:inline-block;padding:10px 16px;background:#374151;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">商品一覧</a>
+    </div>
+  </div>
+</section>
+<script>
+/* ML_REVENUE_CTA_TRACKING */
+(function () {
+  if (window.__mlRevenueCtaTracking) return;
+  window.__mlRevenueCtaTracking = true;
+  document.addEventListener("click", function (event) {
+    var target = event.target;
+    var link = target && target.closest ? target.closest("[data-ml-revenue-cta]") : null;
+    if (!link || typeof window.gtag !== "function") return;
+    window.gtag("event", "ml_revenue_cta_click", {
+      event_category: "revenue_cta",
+      event_label: link.getAttribute("data-ml-revenue-cta") || link.textContent.trim(),
+      destination_url: link.href,
+      source_path: window.location.pathname
+    });
+  }, true);
+})();
+</script>
+<!-- ML_REVENUE_CTA_END -->
+</main>
 </body>
 </html>
 
