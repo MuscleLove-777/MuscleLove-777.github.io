@@ -19,6 +19,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://musclelove-777.github.io/sitemap.xml</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://musclelove-777.github.io/sitemap-root.xml</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://musclelove-777.github.io/patreon/</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,7 +80,7 @@
   </url>
   <url>
     <loc>https://musclelove-777.github.io/ai-tool-hub/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
