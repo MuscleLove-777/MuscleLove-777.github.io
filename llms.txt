@@ -28,11 +28,12 @@ This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It in
 
 
 ## Top Entry Pages (GA4)
-(lastmod: 2026-06-01)
+(lastmod: 2026-06-02)
 
 - [AI Tool Hub](https://musclelove-777.github.io/ai-tool-hub/): entry page.
 - [Lovable Guide](https://musclelove-777.github.io/lovable-guide/): entry page.
 - [Claude AI Guide](https://musclelove-777.github.io/claude-ai-guide/): entry page.
+- [Muscle Arrow Fit](https://musclelove-777.github.io/muscle-arrow-fit/): entry page.
 - [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): entry page.
 - [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): entry page.
 - [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): entry page.
