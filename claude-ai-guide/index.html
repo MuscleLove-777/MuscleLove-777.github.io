@@ -9,8 +9,8 @@
   <meta name="description" content="Claude AIの入口ページ。Claudeの使い方を探す読者向けに、Lovable、AI Tool Hub、ElevenLabs、FLUXへの内部リンクと、Patreon・BOOTH・FANZA導線を整理しました。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://musclelove-777.github.io/claude-ai-guide/">
-  <meta property="og:title" content="Claude AI完全ガイド | 使い方と関連AI導線">
-  <meta property="og:description" content="Claude AIの関連ガイド、AI Tool Hub、収益導線をまとめた入口ページです。">
+  <meta property="og:title" content="Claude AI完全ガイド | 使い方と関連AI導線 | MuscleLove Network">
+  <meta property="og:description" content="Claude流入を受けてAI関連導線と収益導線へつなぐ主力入口です。">
   <meta property="og:image" content="https://musclelove-777.github.io/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://musclelove-777.github.io/og.png">
@@ -18,8 +18,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Claude AI完全ガイド",
+    "name": "Claude AI Guide",
     "url": "https://musclelove-777.github.io/claude-ai-guide/",
+    "description": "Claude AIの使い方と関連AI導線をまとめた入口ページです。",
     "inLanguage": "ja",
     "isPartOf": {
       "@type": "WebSite",
@@ -36,122 +37,70 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Claudeの次に読むべきページは？",
+        "name": "Claudeの次に読むべきページは?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI Tool HubやLovableガイドに進むと、他のAIワークフローや比較対象まで一気に辿れます。"
+          "text": "AI Tool Hub と Lovable Guide を中心に、AI系の主力入口へ回遊できます。"
         }
       },
       {
         "@type": "Question",
-        "name": "このページに収益導線はありますか？",
+        "name": "このページに収益導線はありますか?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Patreon、BOOTH、FANZAへのCTAを設置し、GA4イベントでクリックを追跡できるようにしています。"
+          "text": "Patreon、BOOTH、FANZA へのCTAを置き、GA4イベントでクリック計測できるようにしています。"
         }
       }
     ]
   }
   </script>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; line-height: 1.7; background: #151515; color: #f3f4f6; }
+    body { margin: 0; font-family: "Yu Gothic", Meiryo, sans-serif; background: #131418; color: #f5f7fb; line-height: 1.7; }
     a { color: inherit; }
-    header { padding: 48px 20px 30px; background: #202124; border-bottom: 2px solid #e63946; text-align: center; }
-    header h1 { font-size: clamp(1.8rem, 4.4vw, 2.7rem); line-height: 1.2; margin-bottom: 12px; }
-    header p { color: #d1d5db; max-width: 900px; margin: 0 auto; }
-    main { max-width: 1000px; margin: 0 auto; padding: 28px 20px 56px; }
-    .box { background: #202126; border: 1px solid #353842; border-radius: 12px; padding: 20px; }
-    .box + .box { margin-top: 16px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 14px; }
-    .card { display: block; padding: 16px; background: #1b1c20; border: 1px solid #454851; border-radius: 10px; text-decoration: none; }
-    .card:hover { border-color: #e63946; }
-    .card h2, .card h3 { font-size: 1.02rem; margin-bottom: 6px; }
-    .card p { color: #cfd2d8; font-size: 0.95rem; }
-    .eyebrow { color: #fbbf24; font-size: 0.84rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
-    .cta { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; }
-    .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 14px; border-radius: 10px; font-weight: 800; text-decoration: none; border: 1px solid #e63946; background: #e63946; color: #0b0b0b; }
-    .btn.secondary { border-color: #454851; background: #1b1c20; color: #fff; }
-    ul { margin: 10px 0 0 1.2rem; color: #d1d5db; }
-    footer { margin-top: 22px; color: #9ca3af; font-size: 0.9rem; }
-    footer a { color: #e5e7eb; }
-    @media (max-width: 640px) {
-      .btn { width: 100%; }
-    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 24px 18px 56px; }
+    .hero, .panel { background: #1d2027; border: 1px solid #3a404d; border-radius: 16px; padding: 22px; }
+    .hero h1, .panel h2 { margin: 0 0 10px; line-height: 1.25; }
+    .lead, .panel span, .panel li, .panel p { color: #c7cfdb; }
+    .stack { display: grid; gap: 16px; margin-top: 16px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 16px; }
+    .card { display: block; text-decoration: none; border: 1px solid #3a404d; border-radius: 14px; background: #171920; padding: 16px; transition: border-color 0.18s ease; }
+    .card:hover { border-color: #f35b61; }
+    .card strong { display: block; margin-bottom: 6px; color: #fff; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border-radius: 12px; text-decoration: none; font-weight: 900; border: 1px solid #f35b61; background: #f35b61; color: #101216; }
+    .button.secondary { background: transparent; color: #f5f7fb; border-color: #3a404d; }
+    ul { padding-left: 1.2rem; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Claude AI完全ガイド</h1>
-    <p>Claude検索意図の読者を、関連AIツール、比較対象、収益導線へ自然に回遊させるための入口ページです。単体の紹介で終わらず、次に読むべきページを明確にしています。</p>
-  </header>
-  <main>
-    <section class="box">
-      <p class="eyebrow">Claude Route</p>
-      <p>Claudeを調べて訪れた読者は、周辺ツールや実装系ガイドにも興味を持ちやすいので、AI Tool HubとLovable導線を最短で辿れる構成にしました。</p>
-      <div class="grid">
-        <a class="card" href="https://musclelove-777.github.io/ai-tool-hub/">
-          <h2>AI Tool Hub</h2>
-          <p>Claudeの次に見るべきAIページをまとめて横断できます。</p>
-        </a>
-        <a class="card" href="https://musclelove-777.github.io/lovable-guide/">
-          <h2>Lovableガイド</h2>
-          <p>AIアプリ開発フローに進みたい読者向けの強い内部リンク先。</p>
-        </a>
-        <a class="card" href="https://musclelove-777.github.io/elevenlabs-guide/">
-          <h2>ElevenLabsガイド</h2>
-          <p>音声生成やナレーション系の比較導線。</p>
-        </a>
-        <a class="card" href="https://musclelove-777.github.io/flux-ai-lab/">
-          <h2>FLUX AI Lab</h2>
-          <p>画像生成や実験用途へ広げたい読者の次の一手。</p>
-        </a>
-        <a class="card" href="https://musclelove-777.github.io/network/ai/">
-          <h2>AI Hubまとめ</h2>
-          <p>AIカテゴリ全体の内部リンクを俯瞰できます。</p>
-        </a>
-        <a class="card" href="https://musclelove-777.github.io/">
-          <h2>トップページ</h2>
-          <p>サイト全体の人気導線や収益CTAもまとめて確認できます。</p>
-        </a>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Claude AI完全ガイド</h1>
+      <p class="lead">Claude の使い方を探す読者向けに、Lovable、AI Tool Hub、ElevenLabs、FLUX への内部リンクと収益導線を整理した入口ページです。</p>
+      <div class="actions">
+        <a class="button" href="https://musclelove-777.github.io/ai-tool-hub/">AI Tool Hubへ</a>
+        <a class="button secondary" href="https://musclelove-777.github.io/lovable-guide/">Lovable Guideへ</a>
       </div>
     </section>
-
-    <section class="box">
-      <p class="eyebrow">Revenue Route</p>
-      <p>Claude系の読者はAI以外の導線にも流れやすいので、支援・商品・18+導線を同じ位置で統一し、計測可能にしています。</p>
-      <div class="cta">
-        <a class="btn" href="https://musclelove-777.github.io/patreon/" data-ml-revenue-cta="patreon_claude_ai_guide">Patreonで支援</a>
-        <a class="btn secondary" href="https://musclelove-777.github.io/booth-seo-hub/" data-ml-revenue-cta="booth_claude_ai_guide">BOOTHを見る</a>
-        <a class="btn secondary" href="https://musclelove-777.github.io/eronavi/" data-ml-revenue-cta="fanza_claude_ai_guide">FANZA / 18+</a>
-      </div>
-      <ul>
-        <li>Patreon: 支援と最新情報の受け取り。</li>
-        <li>BOOTH: 商品・作品導線の確認。</li>
-        <li>FANZA: 18+カテゴリへの別導線。</li>
-      </ul>
-    </section>
-
-    <footer>
-      <p><a href="https://musclelove-777.github.io/llms.txt">llms.txt</a> / <a href="https://musclelove-777.github.io/sitemap.xml">sitemap.xml</a></p>
-    </footer>
-  </main>
-  <script>
-  (function () {
-    if (window.__mlRevenueCtaTracking) return;
-    window.__mlRevenueCtaTracking = true;
-    document.addEventListener("click", function (event) {
-      var link = event.target && event.target.closest ? event.target.closest("a[data-ml-revenue-cta]") : null;
-      if (!link || typeof window.gtag !== "function") return;
-      window.gtag("event", "ml_revenue_cta_click", {
-        event_category: "revenue_cta",
-        event_label: link.getAttribute("data-ml-revenue-cta") || link.textContent.trim(),
-        destination_url: link.href,
-        source_path: window.location.pathname,
-        transport_type: "beacon"
-      });
-    }, true);
-  })();
-  </script>
+    <div class="stack">
+      <section class="panel">
+        <h2>関連AIページ</h2>
+        <div class="grid">
+          <a class="card" href="https://musclelove-777.github.io/ai-tool-hub/"><strong>AI Tool Hub</strong><span>AI流入の主力入口へ戻れます。</span></a>
+          <a class="card" href="https://musclelove-777.github.io/lovable-guide/"><strong>Lovable Guide</strong><span>Lovable系の解説記事と比較導線です。</span></a>
+          <a class="card" href="https://musclelove-777.github.io/elevenlabs-guide/"><strong>ElevenLabs Guide</strong><span>音声AIの関連流入先です。</span></a>
+          <a class="card" href="https://musclelove-777.github.io/flux-ai-lab/"><strong>FLUX AI Lab</strong><span>画像生成AIの関連流入先です。</span></a>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>収益導線</h2>
+        <div class="actions">
+          <a class="button secondary" href="https://musclelove-777.github.io/patreon/" data-ml-revenue-cta="patreon_claude_ai_guide">Patreonで支援</a>
+          <a class="button secondary" href="https://musclelove-777.github.io/booth-seo-hub/" data-ml-revenue-cta="booth_claude_ai_guide">BOOTHを見る</a>
+          <a class="button secondary" href="https://musclelove-777.github.io/eronavi/" data-ml-revenue-cta="fanza_claude_ai_guide">FANZA / 18+</a>
+        </div>
+      </section>
+    </div>
+  </div>
 </body>
 </html>
