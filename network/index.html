@@ -5,43 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://musclelove-777.github.io/network/">
-  <title>Network Hub | 今の主力入口をまとめたMuscleLove導線ハブ</title>
-  <meta name="description" content="AI Tool Hub、Lovable Guide、Muscle Arrow Fit、女子プロレスナビなど、今の主力入口ページをまとめたMuscleLove Network Hub。Patreon、BOOTH、FANZAガイド導線もここで整理できます。">
+  <title>MuscleLove Network Hub | AI・女性筋肉・18+ を横断する入口ハブ</title>
+  <meta name="description" content="MuscleLove の主要入口を横断できるハブ。AI Tool Hub、Lovable Guide、Muscle Arrow Fit、女性アスリート系、FANZA 18+ まで、実在 URL だけをまとめて案内します。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://musclelove-777.github.io/network/">
-  <meta property="og:title" content="Network Hub | 今の主力入口をまとめたMuscleLove導線ハブ">
-  <meta property="og:description" content="公開中の主力入口ページと収益導線を一枚で整理するMuscleLoveのルートハブです。">
+  <meta property="og:title" content="MuscleLove Network Hub | AI・女性筋肉・18+ を横断する入口ハブ">
+  <meta property="og:description" content="AI、女性筋肉、成人向け導線を横断して次の回遊先を探せる MuscleLove の入口ハブです。現在需要のあるページを優先して並べています。">
   <meta property="og:image" content="https://musclelove-777.github.io/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://musclelove-777.github.io/og.png">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
+    "@type": "CollectionPage",
+    "name": "MuscleLove Network Hub",
     "url": "https://musclelove-777.github.io/network/",
-    "name": "Network Hub",
-    "description": "MuscleLoveの主力入口ページと収益導線をまとめたハブです。",
+    "description": "MuscleLove の主なカテゴリと上位入口ページをまとめた横断ハブ。",
     "inLanguage": "ja",
-    "dateModified": "2026-06-02"
+    "dateModified": "2026-06-14"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://musclelove-777.github.io/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Network Hub",
+        "item": "https://musclelove-777.github.io/network/"
+      }
+    ]
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Top entry routes",
+    "name": "Network hub routes",
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://musclelove-777.github.io/ai-tool-hub/",
-        "name": "AI Tool Hub"
+        "url": "https://musclelove-777.github.io/network/ai/",
+        "name": "AI Network"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://musclelove-777.github.io/lovable-guide/",
-        "name": "Lovable Guide"
+        "url": "https://musclelove-777.github.io/network/fitness/",
+        "name": "Fitness Network"
       },
       {
         "@type": "ListItem",
@@ -52,8 +72,20 @@
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://musclelove-777.github.io/joshi-prowrestling-navi/",
-        "name": "女子プロレスナビ"
+        "url": "https://musclelove-777.github.io/armwrestling-girls-navi/",
+        "name": "Armwrestling Girls Navi"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://musclelove-777.github.io/physique-girls-navi/",
+        "name": "Physique Girls Navi"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://musclelove-777.github.io/eronavi/",
+        "name": "FANZA Guide 18+"
       }
     ]
   }
@@ -62,63 +94,81 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: "Yu Gothic", Meiryo, sans-serif;
-      background: linear-gradient(180deg, #101319 0%, #0b0d12 100%);
-      color: #f5f7fb;
       line-height: 1.7;
+      color: #ecf2f7;
+      background: linear-gradient(180deg, #0f1720 0%, #0b0f15 100%);
     }
     a { color: inherit; }
-    .wrap { max-width: 1040px; margin: 0 auto; padding: 28px 18px 60px; }
-    .stack { display: grid; gap: 18px; }
+    header {
+      padding: 54px 20px 36px;
+      text-align: center;
+      background:
+        radial-gradient(circle at center, rgba(249, 115, 22, 0.16), transparent 42%),
+        linear-gradient(135deg, #141b26 0%, #0d1218 100%);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    header h1 { font-size: clamp(2rem, 4.6vw, 3rem); margin-bottom: 10px; }
+    header p { max-width: 860px; margin: 0 auto; color: #cbd5e1; }
+    .count {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 5px 14px;
+      background: #f97316;
+      color: #fff;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      font-weight: 800;
+    }
+    main { max-width: 1120px; margin: 0 auto; padding: 30px 20px 56px; }
     .panel {
-      background: rgba(20, 24, 31, 0.94);
+      background: rgba(18, 24, 33, 0.95);
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 18px;
-      padding: 24px;
+      padding: 22px;
       box-shadow: 0 18px 44px rgba(0,0,0,0.24);
     }
+    .panel + .panel { margin-top: 18px; }
     .eyebrow {
       color: #fbbf24;
       font-size: 0.82rem;
-      text-transform: uppercase;
       letter-spacing: 0.1em;
+      text-transform: uppercase;
       font-weight: 900;
       margin-bottom: 10px;
     }
-    h1, h2 { line-height: 1.25; }
-    h1 { margin-bottom: 12px; font-size: clamp(2rem, 4vw, 3rem); }
-    p, li, span { color: #c7cfdb; }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
       margin-top: 16px;
     }
     .card {
       display: block;
       text-decoration: none;
+      background: #11161e;
       border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 14px;
-      background: rgba(14, 17, 22, 0.95);
-      padding: 16px;
-      transition: border-color 0.18s ease, transform 0.18s ease;
+      border-radius: 16px;
+      padding: 18px;
+      transition: transform 0.15s ease, border-color 0.15s ease;
     }
     .card:hover,
     .btn:hover {
-      border-color: #ef6267;
       transform: translateY(-1px);
+      border-color: #f97316;
     }
     .card strong { display: block; margin-bottom: 6px; color: #fff; }
+    .card span, .panel p, li { color: #cbd5e1; }
     .pill {
       display: inline-flex;
       margin-top: 10px;
-      padding: 4px 9px;
+      padding: 4px 10px;
       border-radius: 999px;
-      background: rgba(239, 98, 103, 0.16);
-      color: #fecaca;
+      background: rgba(249, 115, 22, 0.14);
+      color: #fdba74;
       font-size: 0.76rem;
       font-weight: 900;
     }
-    .cta-row {
+    .actions {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -131,115 +181,117 @@
       min-height: 44px;
       padding: 10px 14px;
       border-radius: 999px;
-      border: 1px solid #374151;
-      background: #141922;
-      color: #fff;
       text-decoration: none;
       font-weight: 800;
-      transition: border-color 0.18s ease, transform 0.18s ease;
+      border: 1px solid #495467;
+      background: #11161e;
+      color: #fff;
     }
     .btn.primary {
-      background: linear-gradient(135deg, #f97316, #ef4444);
+      background: linear-gradient(135deg, #f97316, #ea580c);
       border-color: transparent;
     }
     ul { margin: 10px 0 0 1.2rem; }
-    footer { color: #9ca3af; font-size: 0.9rem; margin-top: 8px; }
-    footer a { color: #e5e7eb; }
+    li + li { margin-top: 8px; }
+    footer {
+      text-align: center;
+      padding: 28px 20px 12px;
+      color: #a6b0bf;
+      font-size: 0.9rem;
+    }
+    footer a { color: #f3f4f6; }
     @media (max-width: 640px) {
       .btn { width: 100%; }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="stack">
-      <section class="panel">
-        <p class="eyebrow">Network Hub</p>
-        <h1>今の主力入口をまとめて次の行き先へつなぐ</h1>
-        <p>GSC が degraded の間も、今読まれている入口ページを強めて回遊と収益導線を整理するためのハブです。AI、フィットネス、18+ ガイドを実在URLだけで束ねています。</p>
-        <div class="cta-row">
-          <a class="btn primary" href="/ai-tool-hub/">AI入口を見る</a>
-          <a class="btn" href="/muscle-arrow-fit/">Fitness入口を見る</a>
-          <a class="btn" href="/eronavi/">18+ガイドを見る</a>
-        </div>
-      </section>
+  <!-- generated-by: musclelove-seo-growth-loop (network-hub-refresh-2026-06-14) -->
+  <header>
+    <h1>MuscleLove Network Hub</h1>
+    <p>AI、女性筋肉、女子プロレス、成人向け導線を横断して、次の回遊先を探せる入口ハブです。GA4 上位で需要のあるページだけを優先して並べています。</p>
+    <span class="count">Current winners + real URLs</span>
+  </header>
 
-      <section class="panel">
-        <p class="eyebrow">Current Winners</p>
-        <h2>今の上位入口ページ</h2>
-        <div class="grid">
-          <a class="card" href="https://musclelove-777.github.io/ai-tool-hub/">
-            <strong>AI Tool Hub</strong>
-            <span>AI流入の主力入口。Lovable、Claude、Muscle Arrow Fit への実在リンクを束ねています。</span>
-            <span class="pill">TOP20 PV 11</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/lovable-guide/">
-            <strong>Lovable Guide</strong>
-            <span>Lovable 流入を受けるハブ。記事2本とAI系回遊先をまとめています。</span>
-            <span class="pill">TOP20 PV 7</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/muscle-arrow-fit/">
-            <strong>Muscle Arrow Fit</strong>
-            <span>localhost由来の流入を受け止めるフィットネス入口です。</span>
-            <span class="pill">TOP20 PV 7</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/joshi-prowrestling-navi/">
-            <strong>女子プロレスナビ</strong>
-            <span>女子プロレスと女性アスリート文脈をつなぐ入口ページです。</span>
-            <span class="pill">TOP20 PV 4</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/muscle-meal-girls/">
-            <strong>筋トレ飯ガールズ</strong>
-            <span>筋トレ飯とフィットネス回遊をまとめる食事系ハブです。</span>
-            <span class="pill">TOP20 PV 3</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/overseas-fitness-girls/">
-            <strong>海外フィットネス美女ナビ</strong>
-            <span>海外選手、CrossFit、フィジーク系ページへ送る入口です。</span>
-            <span class="pill">TOP20 PV 3</span>
-          </a>
-        </div>
-      </section>
+  <main>
+    <section class="panel">
+      <p class="eyebrow">Current Winners</p>
+      <p>現在の主入口は AI Tool Hub、Lovable Guide、Muscle Arrow Fit、Armwrestling Girls Navi です。ここから AI とフィットネス、女性アスリート、収益導線へ分岐できます。</p>
+      <div class="grid">
+        <a class="card" href="https://musclelove-777.github.io/ai-tool-hub/">
+          <strong>AI Tool Hub</strong>
+          <span>AI 系の中核ページ。Lovable、Claude、ElevenLabs、FLUX へ接続します。</span>
+          <span class="pill">TOP20 PV 11</span>
+        </a>
+        <a class="card" href="https://musclelove-777.github.io/lovable-guide/">
+          <strong>Lovable Guide</strong>
+          <span>Lovable の解説と 2026 年記事群へ流せる AI クラスターの主入口です。</span>
+          <span class="pill">TOP20 PV 7</span>
+        </a>
+        <a class="card" href="https://musclelove-777.github.io/muscle-arrow-fit/">
+          <strong>Muscle Arrow Fit</strong>
+          <span>localhost 由来の誤流入を公開 URL に戻すフィットネス入口です。</span>
+          <span class="pill">TOP20 PV 7</span>
+        </a>
+        <a class="card" href="https://musclelove-777.github.io/armwrestling-girls-navi/">
+          <strong>Armwrestling Girls Navi</strong>
+          <span>女性アスリート系で最も強い入口。女子プロレスとフィジークへ回遊させます。</span>
+          <span class="pill">TOP20 PV 5</span>
+        </a>
+      </div>
+    </section>
 
-      <section class="panel">
-        <p class="eyebrow">Category Hubs</p>
-        <h2>カテゴリ別に回遊する</h2>
-        <div class="grid">
-          <a class="card" href="https://musclelove-777.github.io/network/ai/">
-            <strong>AI Network</strong>
-            <span>AI Tool Hub、Lovable、Claude、ElevenLabs、FLUX などAI入口をまとめています。</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/network/fitness/">
-            <strong>Fitness Network</strong>
-            <span>筋肉女子、食事、海外選手、女子プロレス系の入口を整理したハブです。</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/network/academy/">
-            <strong>Academy Network</strong>
-            <span>学び、分析、ノウハウ系の一覧へ移動できます。</span>
-          </a>
-          <a class="card" href="https://musclelove-777.github.io/">
-            <strong>Home</strong>
-            <span>サイト全体の入口へ戻って主要導線を見直せます。</span>
-          </a>
-        </div>
-      </section>
+    <section class="panel">
+      <p class="eyebrow">Main Routes</p>
+      <div class="grid">
+        <a class="card" href="https://musclelove-777.github.io/network/ai/">
+          <strong>AI Network</strong>
+          <span>AI Tool Hub、Lovable、Claude、関連記事をまとめた AI 専用ハブです。</span>
+        </a>
+        <a class="card" href="https://musclelove-777.github.io/network/fitness/">
+          <strong>Fitness Network</strong>
+          <span>Muscle Arrow Fit、女子プロレス、フィジーク、海外フィットネスをまとめたハブです。</span>
+        </a>
+        <a class="card" href="https://musclelove-777.github.io/physique-girls-navi/">
+          <strong>Physique Girls Navi</strong>
+          <span>フィジークと女性筋肉系の比較軸を増やしたい時の入口です。</span>
+        </a>
+        <a class="card" href="https://musclelove-777.github.io/eronavi/">
+          <strong>FANZA Guide 18+</strong>
+          <span>成人向けの導線をまとめたハブです。18歳未満は利用できません。</span>
+        </a>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="https://musclelove-777.github.io/network/ai/">AI Network へ</a>
+        <a class="btn" href="https://musclelove-777.github.io/network/fitness/">Fitness Network へ</a>
+        <a class="btn" href="https://musclelove-777.github.io/armwrestling-girls-navi/">Armwrestling入口へ</a>
+        <a class="btn" href="https://musclelove-777.github.io/joshi-prowrestling-navi/">女子プロレス入口へ</a>
+      </div>
+    </section>
 
-      <section class="panel">
-        <p class="eyebrow">Revenue Routes</p>
-        <h2>収益導線</h2>
-        <p>入口ページから最終的に送る先は、Patreon、BOOTH、FANZAガイドの3本です。クリック計測用の `data-ml-revenue-cta` を付けています。</p>
-        <div class="cta-row">
-          <a class="btn primary" href="https://musclelove-777.github.io/patreon/" data-ml-revenue-cta="patreon_network_hub" data-ml-revenue-destination="patreon">Patreonで応援</a>
-          <a class="btn" href="https://musclelove-777.github.io/booth-seo-hub/" data-ml-revenue-cta="booth_network_hub" data-ml-revenue-destination="booth-seo-hub">BOOTH作品ナビ</a>
-          <a class="btn" href="https://musclelove-777.github.io/eronavi/" data-ml-revenue-cta="fanza_network_hub" data-ml-revenue-destination="eronavi">FANZAガイド 18+</a>
-        </div>
-      </section>
+    <section class="panel">
+      <p class="eyebrow">Revenue Routes</p>
+      <p>検索流入から次の回遊先を選びやすいように、Patreon、BOOTH、FANZA 18+ の 3 ルートを明示しています。</p>
+      <div class="actions">
+        <a class="btn primary" href="https://musclelove-777.github.io/patreon/" data-ml-revenue-cta="patreon_network_hub" data-ml-revenue-destination="patreon">Patreonで支援</a>
+        <a class="btn" href="https://musclelove-777.github.io/booth-seo-hub/" data-ml-revenue-cta="booth_network_hub" data-ml-revenue-destination="booth-seo-hub">BOOTH販売を見る</a>
+        <a class="btn" href="https://musclelove-777.github.io/eronavi/" data-ml-revenue-cta="fanza_network_hub" data-ml-revenue-destination="eronavi">FANZAガイド 18+</a>
+      </div>
+    </section>
 
-      <footer>
-        <p><a href="https://musclelove-777.github.io/">Home</a> / <a href="https://musclelove-777.github.io/llms.txt">llms.txt</a> / <a href="https://musclelove-777.github.io/sitemap-root.xml">sitemap-root.xml</a></p>
-      </footer>
-    </div>
-  </div>
+    <section class="panel">
+      <p class="eyebrow">Crawl Notes</p>
+      <ul>
+        <li><a href="https://musclelove-777.github.io/sitemap-root.xml">sitemap-root.xml</a> には実在 URL だけを載せています。</li>
+        <li><a href="https://musclelove-777.github.io/llms.txt">llms.txt</a> は AI クローラ向けの入口一覧として維持しています。</li>
+        <li>GSC は `GSC_DEGRADED` のため、GA4 と公開ファイル整合を優先しています。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="https://musclelove-777.github.io/">Home</a> / <a href="https://musclelove-777.github.io/network/ai/">AI Network</a> / <a href="https://musclelove-777.github.io/network/fitness/">Fitness Network</a></p>
+  </footer>
 
   <script>
   (function () {

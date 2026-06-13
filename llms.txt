@@ -24,11 +24,11 @@
 
 ## Notes
 
-This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It intentionally excludes removed or missing legacy URLs.
+This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It intentionally excludes removed or missing legacy URLs. Public routing for Muscle Arrow Fit is the GitHub Pages URL below, not localhost-style analytics artifacts.
 
 
 ## Top Entry Pages (GA4)
-(lastmod: 2026-06-02)
+(lastmod: 2026-06-14)
 
 - [Network Hub](https://musclelove-777.github.io/network/): category entry page.
 - [AI Tools Network](https://musclelove-777.github.io/network/ai/): AI category hub.
@@ -39,17 +39,17 @@ This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It in
 - [Lovable How-To 2026](https://musclelove-777.github.io/lovable-guide/articles/lovable-tsukaikata-2026-ai-app-development-guide.html): article page.
 - [Claude AI Guide](https://musclelove-777.github.io/claude-ai-guide/): entry page.
 - [Muscle Arrow Fit](https://musclelove-777.github.io/muscle-arrow-fit/): entry page.
+- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): current women-athlete top mover.
+- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): physique and bikini entry page.
 - [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): entry page.
 - [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): entry page.
 - [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): entry page.
-- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): entry page.
 - [Joshi Prowrestling Navi](https://musclelove-777.github.io/joshi-prowrestling-navi/): entry page.
 - [Joshi Prowrestling Navi article](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/stardom-vs-marigold-2026.html): comparison article.
-- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): entry page.
+- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): meal-routing entry page.
 - [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): entry page.
-- [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): entry page.
-- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): entry page.
-- [Overseas Fitness Girls](https://musclelove-777.github.io/overseas-fitness-girls/): entry page.
+- [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): competition entry page.
+- [Overseas Fitness Girls](https://musclelove-777.github.io/overseas-fitness-girls/): overseas fitness entry page.
 - [Anime Navi](https://musclelove-777.github.io/anime-navi/): entry page (18+).
 - [Entsuma](https://musclelove-777.github.io/entsuma/): entry page (18+).
 - [NTR Navi](https://musclelove-777.github.io/ntr-navi/): entry page (18+).
