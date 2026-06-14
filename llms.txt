@@ -45,9 +45,12 @@ This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It in
 - [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): entry page.
 - [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): entry page.
 - [Joshi Prowrestling Navi](https://musclelove-777.github.io/joshi-prowrestling-navi/): entry page.
+- [Iwatani Double Champion 2026](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/iwatani-double-champion-2026.html): joshi article landing page.
 - [Joshi Prowrestling Navi article](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/stardom-vs-marigold-2026.html): comparison article.
+- [Damage CTRL 2026](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/wwe-damage-ctrl-dominance-2026.html): WWE joshi article landing page.
 - [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): meal-routing entry page.
 - [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): entry page.
+- [Female Physique 2026 Gallery](https://musclelove-777.github.io/female-physique-queens/articles/20260404_00.html): physique article landing page.
 - [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): competition entry page.
 - [Overseas Fitness Girls](https://musclelove-777.github.io/overseas-fitness-girls/): overseas fitness entry page.
 - [Anime Navi](https://musclelove-777.github.io/anime-navi/): entry page (18+).
