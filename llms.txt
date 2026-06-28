@@ -8,6 +8,7 @@
 - [Patreon](https://musclelove-777.github.io/patreon/): official support page.
 - [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): product and BOOTH sales hub.
 - [FANZA Guide](https://musclelove-777.github.io/eronavi/): adult-oriented guide hub for users 18+.
+- [FANZA Muscle Keywords Guide](https://musclelove-777.github.io/eronavi/posts/2026-05-10-takeuchi-yuki-abs-fanza-guide/): adult-oriented keyword guide for users 18+.
 - [AI Tools Network](https://musclelove-777.github.io/network/ai/): AI tool discovery hub.
 - [Fitness Network](https://musclelove-777.github.io/network/fitness/): fitness and female muscle hub.
 - [Academy Network](https://musclelove-777.github.io/network/academy/): learning and business knowledge hub.
@@ -28,7 +29,7 @@ This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It in
 
 
 ## Top Entry Pages (GA4)
-(lastmod: 2026-06-14)
+(lastmod: 2026-06-28)
 
 - [Network Hub](https://musclelove-777.github.io/network/): category entry page.
 - [AI Tools Network](https://musclelove-777.github.io/network/ai/): AI category hub.
@@ -40,6 +41,9 @@ This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It in
 - [Claude AI Guide](https://musclelove-777.github.io/claude-ai-guide/): entry page.
 - [Muscle Arrow Fit](https://musclelove-777.github.io/muscle-arrow-fit/): entry page.
 - [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): current women-athlete top mover.
+- [Armwrestling Technique Guide](https://musclelove-777.github.io/articles/2026-04-04-arm-wrestling-technique-guide.html): real public article for prior localhost armwrestling demand.
+- [Takenaka Ayane Profile Route](https://musclelove-777.github.io/articles/2026-04-04-takenaka-ayane-profile.html): real public route for prior localhost profile demand.
+- [IFA World Championship Japan 2026 Route](https://musclelove-777.github.io/articles/2026-04-04-ifa-world-championship-japan-2026.html): real public route for prior localhost tournament demand.
 - [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): physique and bikini entry page.
 - [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): entry page.
 - [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): entry page.
