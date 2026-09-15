@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "pages": 47,
+  "articles": 14,
+  "article_cards": 14,
+  "article_image_coverage": 14,
+  "homepage_images": 23,
+  "redirects_preserved": [
+    "articles/20260404_00.html",
+    "articles/iwatani-double-champion-2026.html"
+  ],
+  "errors": [],
+  "inventory": [
+    {
+      "path": "ai-tool-hub/index.html",
+      "article": false,
+      "images": 8,
+      "has_cover": true
+    },
+    {
+      "path": "anime-navi/categories/doujincg/index.html",
+      "article": false,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "anime-navi/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "antigravity-guide/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "armwrestling-girls-navi/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "articles/2026-04-04-arm-wrestling-technique-guide.html",
+      "article": true,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "articles/2026-04-04-ifa-world-championship-japan-2026.html",
+      "article": true,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "articles/2026-04-04-takenaka-ayane-profile.html",
+      "article": true,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/articles/ab-crack-gal-ai-cg.html",
+      "article": true,
+      "images": 2,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/articles/booth-muscle-girl-guide.html",
+      "article": true,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/articles/kinniku-joshi-ai-cg.html",
+      "article": true,
+      "images": 2,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/articles/waki-fetish-ai-cg.html",
+      "article": true,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/index.html",
+      "article": false,
+      "images": 7,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/products/index.html",
+      "article": false,
+      "images": 3,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/products/train-gal-waki.html",
+      "article": false,
+      "images": 2,
+      "has_cover": true
+    },
+    {
+      "path": "booth-seo-hub/products/train-tanktop-waki.html",
+      "article": false,
+      "images": 2,
+      "has_cover": true
+    },
+    {
+      "path": "claude-ai-guide/index.html",
+      "article": false,
+      "images": 5,
+      "has_cover": true
+    },
+    {
+      "path": "elevenlabs-guide/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "entsuma/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "eronavi/categories/shiroto/index.html",
+      "article": false,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "eronavi/index.html",
+      "article": false,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "eronavi/posts/2026-05-10-takeuchi-yuki-abs-fanza-guide/index.html",
+      "article": true,
+      "images": 1,
+      "has_cover": true
+    },
+    {
+      "path": "female-physique-queens/articles/20260404_00.html",
+      "article": true,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "female-physique-queens/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "fighting-girls-navi/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "flux-ai-lab/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "games/index.html",
+      "article": false,
+      "images": 110,
+      "has_cover": true
+    },
+    {
+      "path": "index.html",
+      "article": false,
+      "images": 23,
+      "has_cover": false
+    },
+    {
+      "path": "joshi-prowrestling-navi/articles/iwatani-double-champion-2026.html",
+      "article": true,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "joshi-prowrestling-navi/articles/stardom-vs-marigold-2026.html",
+      "article": true,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "joshi-prowrestling-navi/articles/wwe-damage-ctrl-dominance-2026.html",
+      "article": true,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "joshi-prowrestling-navi/index.html",
+      "article": false,
+      "images": 7,
+      "has_cover": true
+    },
+    {
+      "path": "lovable-guide/articles/2026lovable.html",
+      "article": true,
+      "images": 5,
+      "has_cover": true
+    },
+    {
+      "path": "lovable-guide/articles/lovable-tsukaikata-2026-ai-app-development-guide.html",
+      "article": true,
+      "images": 5,
+      "has_cover": true
+    },
+    {
+      "path": "lovable-guide/index.html",
+      "article": false,
+      "images": 8,
+      "has_cover": true
+    },
+    {
+      "path": "muscle-arrow-fit/index.html",
+      "article": false,
+      "images": 7,
+      "has_cover": true
+    },
+    {
+      "path": "muscle-meal-girls/index.html",
+      "article": false,
+      "images": 5,
+      "has_cover": true
+    },
+    {
+      "path": "network/academy/index.html",
+      "article": false,
+      "images": 78,
+      "has_cover": true
+    },
+    {
+      "path": "network/ai/index.html",
+      "article": false,
+      "images": 7,
+      "has_cover": true
+    },
+    {
+      "path": "network/fitness/index.html",
+      "article": false,
+      "images": 8,
+      "has_cover": true
+    },
+    {
+      "path": "network/index.html",
+      "article": false,
+      "images": 9,
+      "has_cover": true
+    },
+    {
+      "path": "ntr-navi/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "oppai-paradise/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    },
+    {
+      "path": "overseas-fitness-girls/index.html",
+      "article": false,
+      "images": 9,
+      "has_cover": true
+    },
+    {
+      "path": "patreon/index.html",
+      "article": false,
+      "images": 10,
+      "has_cover": true
+    },
+    {
+      "path": "physique-girls-navi/index.html",
+      "article": false,
+      "images": 8,
+      "has_cover": true
+    },
+    {
+      "path": "vr-eros/index.html",
+      "article": false,
+      "images": 4,
+      "has_cover": true
+    }
+  ]
+}

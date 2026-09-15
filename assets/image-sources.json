@@ -1,0 +1,80 @@
+[
+  {
+    "asset": "/assets/images/brand-hero.webp",
+    "source": "Original illustration generated for this redesign, fictional adult woman, visual QA passed",
+    "source_sha256": "dfb028519f9c8409040df4472b1bfff29ad49a9ea815f86747c25b250566499e",
+    "sha256": "237a5ce816b73be86363439e51c322f42626ed98ec396ec7c65dfb6f2b694969",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "female_only_verified": true,
+    "reviewed": "2026-09-16",
+    "bytes": 119494
+  },
+  {
+    "asset": "/assets/images/ai-studio.webp",
+    "source": "Original still life generated for this redesign, no people",
+    "source_sha256": "930865c36f9d371b2eaa2c2f237f25113cd0b363c691f0d2640ee9c8cd1adeb7",
+    "sha256": "3ffbaf5f0603f6db10d6251b48dd66a25743f49fb0820ddda4e34664818db154",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "female_only_verified": true,
+    "reviewed": "2026-09-16",
+    "bytes": 101198
+  },
+  {
+    "asset": "/assets/images/fitness-01.webp",
+    "source": "Existing first-party public gallery preview-01.jpg; fictional adult woman, visual QA passed",
+    "source_sha256": "91e1efddf573391145cae754d04fc7e09c2702d78a9e8518f1b6c52c16ba8fc1",
+    "sha256": "fdd691f4ac1a3e884e5ba23944cd52665a5e2221df9422ab9e9307a5c0011642",
+    "dimensions": [
+      720,
+      1080
+    ],
+    "female_only_verified": true,
+    "reviewed": "2026-09-16",
+    "bytes": 33114
+  },
+  {
+    "asset": "/assets/images/fitness-02.webp",
+    "source": "Existing first-party public gallery preview-02.jpg; fictional adult woman, visual QA passed",
+    "source_sha256": "4b7be243559a7a0c64b191e333baa564f9a77889caf630b0c6b15f1789a9206e",
+    "sha256": "6789b05cefcf64a566672b07addc82fb9ce48f3572cbb56fb1b8107bf5624f2a",
+    "dimensions": [
+      720,
+      1080
+    ],
+    "female_only_verified": true,
+    "reviewed": "2026-09-16",
+    "bytes": 40708
+  },
+  {
+    "asset": "/assets/images/fitness-03.webp",
+    "source": "Existing first-party public gallery preview-03.jpg; fictional adult woman, visual QA passed",
+    "source_sha256": "aadf02bcc8a18661e472b508dc267cbc61e450f4e8490562b3b18039a4ef05e6",
+    "sha256": "a42f097e8e6d1218cd811b12efecd769591f10b6e7ff2883554bcc2e5fab024d",
+    "dimensions": [
+      720,
+      1080
+    ],
+    "female_only_verified": true,
+    "reviewed": "2026-09-16",
+    "bytes": 41680
+  },
+  {
+    "asset": "/assets/images/competition.webp",
+    "source": "Original generated conceptual wrestling arena; no people; visual QA passed",
+    "source_sha256": "045bf331456127640af2ff6679fd49a7aff313f65e77da2c6c645172b4126f09",
+    "sha256": "5dd28894a3c50cb5d82706f7db2ff1f0a4f11eacc8f4008d77a34223e6c7493d",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "female_only_verified": true,
+    "reviewed": "2026-09-16",
+    "bytes": 242374
+  }
+]
