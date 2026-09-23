@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "pages": 47,
+  "pages": 48,
   "articles": 14,
   "article_cards": 14,
   "article_image_coverage": 14,
@@ -142,6 +142,12 @@
       "article": true,
       "images": 1,
       "has_cover": true
+    },
+    {
+      "path": "fan/index.html",
+      "article": false,
+      "images": 7,
+      "has_cover": false
     },
     {
       "path": "female-physique-queens/articles/20260404_00.html",

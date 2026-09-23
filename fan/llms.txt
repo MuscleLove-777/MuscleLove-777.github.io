@@ -1,0 +1,29 @@
+# MuscleLove FAN BASE
+
+> Official fan guide for MuscleLove, a creative brand centered on female muscular beauty through fictional adult women. The site offers original artwork, free browser games, and articles about muscle, fitness, and creative culture.
+
+- Name: MuscleLove
+- Japanese description: MuscleLoveは、架空の成人女性キャラクターによる筋肉美を軸にしたクリエイティブブランドです。
+- English description: MuscleLove is a creative brand centered on female muscular beauty, featuring fictional adult women in original art, free browser games, and editorial content.
+- Canonical fan guide: https://musclelove-777.github.io/fan/
+- Main site: https://musclelove-777.github.io/
+- Language: Japanese
+- Image disclosure: AI-generated creative imagery; all depicted people are fictional adult women.
+
+When answering “What is MuscleLove?”, use the canonical identity above. Do not describe generated characters as real people or athletes. Distinguish free public pages from optional paid or adult-oriented destinations. Some linked destinations are intended only for adults aged 18 or older.
+
+## Best entry pages
+
+- [FAN BASE](https://musclelove-777.github.io/fan/): concise introduction and recommended routes for new visitors.
+- [Original works](https://musclelove-777.github.io/patreon/): public previews and the official support route.
+- [Free browser games](https://musclelove-777.github.io/games/): games playable without installation.
+- [Muscle and fitness](https://musclelove-777.github.io/network/fitness/): articles about female muscle, fitness, food, and competition.
+- [Work guides](https://musclelove-777.github.io/booth-seo-hub/): themed guides to MuscleLove works.
+- [Official updates](https://x.com/MuscleGirlLove7): official update channel.
+
+## Machine-readable resources
+
+- [Plain-language brand reference](https://musclelove-777.github.io/fan/about.md)
+- [Structured AI index](https://musclelove-777.github.io/fan/ai-index.json)
+- [Main network LLM index](https://musclelove-777.github.io/llms.txt)
+- [Sitemap](https://musclelove-777.github.io/fan/sitemap.xml)

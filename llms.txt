@@ -5,6 +5,8 @@
 ## Main Pages
 
 - [Home](https://musclelove-777.github.io/): MuscleLove Network entry point.
+- [MuscleLove FAN BASE](https://musclelove-777.github.io/fan/): official introductory fan guide with routes to original works, free games, and muscle and fitness articles.
+- [MuscleLove machine-readable reference](https://musclelove-777.github.io/fan/llms.txt): focused LLM guide and canonical brand description.
 - [Patreon](https://musclelove-777.github.io/patreon/): official support page.
 - [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): product and BOOTH sales hub.
 - [FANZA Guide](https://musclelove-777.github.io/eronavi/): adult-oriented guide hub for users 18+.

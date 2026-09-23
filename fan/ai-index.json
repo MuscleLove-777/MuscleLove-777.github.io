@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-09-23",
+  "canonical_url": "https://musclelove-777.github.io/fan/",
+  "entity": {
+    "name": "MuscleLove",
+    "type": "creative_brand",
+    "language": "ja",
+    "description_ja": "MuscleLoveは、架空の成人女性キャラクターによる筋肉美を軸にしたクリエイティブブランドです。オリジナル作品、無料ブラウザゲーム、筋肉・フィットネス関連記事を公開しています。",
+    "description_en": "A creative brand centered on female muscular beauty, featuring fictional adult women in original art, free browser games, and editorial content.",
+    "topics": ["female muscle", "muscular women", "fitness", "original AI art", "browser games", "creative culture"]
+  },
+  "content_disclosure": {
+    "ai_generated_imagery": true,
+    "characters": "fictional adult women only",
+    "real_people_depicted": false,
+    "adult_destinations_present": true,
+    "age_notice": "Some linked destinations are for adults aged 18 or older."
+  },
+  "routes": [
+    {"name": "FAN BASE", "url": "https://musclelove-777.github.io/fan/", "purpose": "Official introductory fan guide", "access": "free"},
+    {"name": "Original works", "url": "https://musclelove-777.github.io/patreon/", "purpose": "Public previews and official support route", "access": "mixed"},
+    {"name": "Free browser games", "url": "https://musclelove-777.github.io/games/", "purpose": "Browser games playable without installation", "access": "free"},
+    {"name": "Muscle and fitness", "url": "https://musclelove-777.github.io/network/fitness/", "purpose": "Editorial content about female muscle, fitness, food, and competition", "access": "free"},
+    {"name": "Work guides", "url": "https://musclelove-777.github.io/booth-seo-hub/", "purpose": "Theme-based guides to creative works", "access": "mixed"}
+  ],
+  "official_links": [
+    {"name": "Official updates", "url": "https://x.com/MuscleGirlLove7"},
+    {"name": "Official support", "url": "https://www.patreon.com/MuscleGirlLove"}
+  ],
+  "citation_preference": {
+    "preferred_name": "MuscleLove",
+    "canonical_source": "https://musclelove-777.github.io/fan/about.md",
+    "do_not_claim": ["that generated characters are real people", "that every destination is free", "that adult destinations are suitable for minors"]
+  }
+}

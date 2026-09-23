@@ -26,7 +26,7 @@ COVERS = {
     "fitness": ("/assets/images/fitness-01.webp", "筋肉美を表現した架空の成人女性のAIイメージ", 720, 1080),
 }
 LABELS = {"art": "作品ガイド", "ai": "AI・つくる", "fitness": "筋肉・競技"}
-NAV = '''<nav class="ml-nav" aria-label="メインナビゲーション"><a class="ml-brand" href="/">Muscle<span>Love</span></a><button class="ml-menu" type="button" aria-expanded="false" aria-controls="ml-nav-links">メニュー</button><div class="ml-nav-links" id="ml-nav-links"><a href="/#explore">テーマから探す</a><a href="/#articles">記事を読む</a><a href="/#gallery">ギャラリー</a><a class="ml-nav-cta" href="/patreon/" data-ml-revenue-cta="patreon_visual_nav" data-ml-revenue-destination="patreon">限定作品を見る ↗</a></div></nav>'''
+NAV = '''<nav class="ml-nav" aria-label="メインナビゲーション"><a class="ml-brand" href="/">Muscle<span>Love</span></a><button class="ml-menu" type="button" aria-expanded="false" aria-controls="ml-nav-links">メニュー</button><div class="ml-nav-links" id="ml-nav-links"><a href="/fan/">FAN BASE</a><a href="/#explore">テーマから探す</a><a href="/#articles">記事を読む</a><a href="/#gallery">ギャラリー</a><a class="ml-nav-cta" href="/patreon/" data-ml-revenue-cta="patreon_visual_nav" data-ml-revenue-destination="patreon">限定作品を見る ↗</a></div></nav>'''
 CAPTION = "AIによるイメージ画像です。人物は架空の成人女性で、実在の選手・人物や実際の大会写真ではありません。"
 
 
@@ -129,6 +129,11 @@ def schema_images(soup, src):
 def enhance(root, path, soup):
     relative = path.relative_to(root)
     if not soup.body or not soup.head or not soup.h1 or redirect(soup):
+        return False
+    # Hand-authored campaign pages own their layout and still participate in
+    # the shared image/link audit.  This opt-out prevents the generic cover and
+    # navigation injector from rewriting an intentional custom composition.
+    if soup.body.get("data-ml-visual-build") == "custom":
         return False
     if relative.as_posix() == "index.html":
         return False
