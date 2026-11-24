@@ -1,68 +1,35 @@
-# MuscleLove Network
+# MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界
 
-> Official hub for MuscleLove: female muscle, fitness, AI tools, BOOTH, Patreon, and adult-oriented FANZA navigation. This file lists only pages that exist in the current public repository.
+> 筋肉女子のオリジナル作品、フィットネス・女子競技の記事、AIクリエイティブのガイド。MuscleLoveの世界を画像から探そう。
 
 ## Main Pages
 
-- [Home](https://musclelove-777.github.io/): MuscleLove Network entry point.
-- [MuscleLove FAN BASE](https://musclelove-777.github.io/fan/): official introductory fan guide with routes to original works, free games, and muscle and fitness articles.
-- [MuscleLove machine-readable reference](https://musclelove-777.github.io/fan/llms.txt): focused LLM guide and canonical brand description.
-- [Patreon](https://musclelove-777.github.io/patreon/): official support page.
-- [BOOTH SEO Hub](https://musclelove-777.github.io/booth-seo-hub/): product and BOOTH sales hub.
-- [FANZA Guide](https://musclelove-777.github.io/eronavi/): adult-oriented guide hub for users 18+.
-- [FANZA Muscle Keywords Guide](https://musclelove-777.github.io/eronavi/posts/2026-05-10-takeuchi-yuki-abs-fanza-guide/): adult-oriented keyword guide for users 18+.
-- [AI Tools Network](https://musclelove-777.github.io/network/ai/): AI tool discovery hub.
-- [Fitness Network](https://musclelove-777.github.io/network/fitness/): fitness and female muscle hub.
-- [Academy Network](https://musclelove-777.github.io/network/academy/): learning and business knowledge hub.
+- [Home](https://musclelove-777.github.io/): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [fan](https://musclelove-777.github.io/fan/): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [games](https://musclelove-777.github.io/games/): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [llms.txt](https://musclelove-777.github.io/llms.txt): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [sitemap.xml](https://musclelove-777.github.io/sitemap.xml): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [sitemap root.xml](https://musclelove-777.github.io/sitemap-root.xml): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [eronavi](https://musclelove-777.github.io/eronavi/): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [physique girls navi](https://musclelove-777.github.io/physique-girls-navi/): main page of MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
 
-## Sales And Support
+## Articles (most recent)
 
-- [BOOTH products](https://musclelove-777.github.io/booth-seo-hub/products/): product index.
-- [Train Tanktop Waki](https://musclelove-777.github.io/booth-seo-hub/products/train-tanktop-waki.html): BOOTH product landing page.
-- [Train Gal Waki](https://musclelove-777.github.io/booth-seo-hub/products/train-gal-waki.html): BOOTH product landing page.
+- [arm wrestling technique guide.html](https://musclelove-777.github.io/articles/2026-04-04-arm-wrestling-technique-guide.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [takenaka ayane profile.html](https://musclelove-777.github.io/articles/2026-04-04-takenaka-ayane-profile.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [ifa world championship japan 2026.html](https://musclelove-777.github.io/articles/2026-04-04-ifa-world-championship-japan-2026.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [iwatani double champion 2026.html](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/iwatani-double-champion-2026.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [stardom vs marigold 2026.html](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/stardom-vs-marigold-2026.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [wwe damage ctrl dominance 2026.html](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/wwe-damage-ctrl-dominance-2026.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [20260404 00.html](https://musclelove-777.github.io/female-physique-queens/articles/20260404_00.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [fitness](https://musclelove-777.github.io/network/fitness/): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [ai](https://musclelove-777.github.io/network/ai/): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [2026lovable.html](https://musclelove-777.github.io/lovable-guide/articles/2026lovable.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [lovable tsukaikata 2026 ai app development guide.html](https://musclelove-777.github.io/lovable-guide/articles/lovable-tsukaikata-2026-ai-app-development-guide.html): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [products](https://musclelove-777.github.io/booth-seo-hub/products/): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
+- [academy](https://musclelove-777.github.io/network/academy/): article on MuscleLove | 強く、美しく。筋肉女子とクリエイティブの世界.
 
-## Official Links
+## About this file
 
-- [X @MuscleGirlLove7](https://x.com/MuscleGirlLove7)
-
-## Notes
-
-This `llms.txt` is maintained for LLM-based crawlers and AI search agents. It intentionally excludes removed or missing legacy URLs. Public routing for Muscle Arrow Fit is the GitHub Pages URL below, not localhost-style analytics artifacts.
-
-
-## Top Entry Pages (GA4)
-(lastmod: 2026-06-28)
-
-- [Network Hub](https://musclelove-777.github.io/network/): category entry page.
-- [AI Tools Network](https://musclelove-777.github.io/network/ai/): AI category hub.
-- [Fitness Network](https://musclelove-777.github.io/network/fitness/): fitness category hub.
-- [AI Tool Hub](https://musclelove-777.github.io/ai-tool-hub/): entry page.
-- [Lovable Guide](https://musclelove-777.github.io/lovable-guide/): entry page.
-- [Lovable 2026 Guide](https://musclelove-777.github.io/lovable-guide/articles/2026lovable.html): article page.
-- [Lovable How-To 2026](https://musclelove-777.github.io/lovable-guide/articles/lovable-tsukaikata-2026-ai-app-development-guide.html): article page.
-- [Claude AI Guide](https://musclelove-777.github.io/claude-ai-guide/): entry page.
-- [Muscle Arrow Fit](https://musclelove-777.github.io/muscle-arrow-fit/): entry page.
-- [Armwrestling Girls Navi](https://musclelove-777.github.io/armwrestling-girls-navi/): current women-athlete top mover.
-- [Armwrestling Technique Guide](https://musclelove-777.github.io/articles/2026-04-04-arm-wrestling-technique-guide.html): real public article for prior localhost armwrestling demand.
-- [Takenaka Ayane Profile Route](https://musclelove-777.github.io/articles/2026-04-04-takenaka-ayane-profile.html): real public route for prior localhost profile demand.
-- [IFA World Championship Japan 2026 Route](https://musclelove-777.github.io/articles/2026-04-04-ifa-world-championship-japan-2026.html): real public route for prior localhost tournament demand.
-- [Physique Girls Navi](https://musclelove-777.github.io/physique-girls-navi/): physique and bikini entry page.
-- [ElevenLabs Guide](https://musclelove-777.github.io/elevenlabs-guide/): entry page.
-- [Flux AI Lab](https://musclelove-777.github.io/flux-ai-lab/): entry page.
-- [Antigravity Guide](https://musclelove-777.github.io/antigravity-guide/): entry page.
-- [Joshi Prowrestling Navi](https://musclelove-777.github.io/joshi-prowrestling-navi/): entry page.
-- [Iwatani Double Champion 2026](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/iwatani-double-champion-2026.html): joshi article landing page.
-- [Joshi Prowrestling Navi article](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/stardom-vs-marigold-2026.html): comparison article.
-- [Damage CTRL 2026](https://musclelove-777.github.io/joshi-prowrestling-navi/articles/wwe-damage-ctrl-dominance-2026.html): WWE joshi article landing page.
-- [Muscle Meal Girls](https://musclelove-777.github.io/muscle-meal-girls/): meal-routing entry page.
-- [Female Physique Queens](https://musclelove-777.github.io/female-physique-queens/): entry page.
-- [Female Physique 2026 Gallery](https://musclelove-777.github.io/female-physique-queens/articles/20260404_00.html): physique article landing page.
-- [Fighting Girls Navi](https://musclelove-777.github.io/fighting-girls-navi/): competition entry page.
-- [Overseas Fitness Girls](https://musclelove-777.github.io/overseas-fitness-girls/): overseas fitness entry page.
-- [Anime Navi](https://musclelove-777.github.io/anime-navi/): entry page (18+).
-- [Entsuma](https://musclelove-777.github.io/entsuma/): entry page (18+).
-- [NTR Navi](https://musclelove-777.github.io/ntr-navi/): entry page (18+).
-- [Oppai Paradise](https://musclelove-777.github.io/oppai-paradise/): entry page (18+).
-- [VR Eros](https://musclelove-777.github.io/vr-eros/): entry page (18+).
-
-<!-- /Top Entry Pages (GA4) -->
+This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/MuscleLove-777.github.io
